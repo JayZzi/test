@@ -1,0 +1,70 @@
+/*наследование стилей по названию*/
+p{
+    background-color: #e4e4e4;
+    border: 1px solid black;
+}
+
+.message{
+    color:black;
+    background-color: #e4e4e4;
+    border: 1px solid black;
+    margin:10px;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+.message:hover{
+    /*border:10px solid black;*/
+}
+.info{
+    color:black;
+    background-color: yellow;
+}
+.info:hover{
+    border:5px solid black;
+}
+
+.fail{
+    color:black;
+    background-color: red;
+    transition: 5s all; /*!!!!время анимации,чтоб происходило не сразу*/
+    border-radius: 30px;
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    margin-top:150px ;
+}
+
+.fail:hover{
+    /*display: none;   !* cкрыть*!*/
+    /*transform: rotate(90deg) scale(0.5);!* повернуть на 90 градусов,уменьшить в 2 раза*!*/
+    transform: rotate(45deg);
+    background-color:yellow;
+    box-shadow: 30px 30px 30px #000000; /* сдвиг по х,сдвиг по у,размытие,цвет*/
+}
+.success{
+    color:black;
+    background-color: greenyellow;
+    border-radius: 30px;
+    opacity: 0.5;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;  /* жир,стандартно 400*/
+}
+.success:hover{
+    opacity: 1;
+    box-shadow: 30px 30px 30px #000000; /* сдвиг по х,сдвиг по у,размытие,цвет*/
+}
+.attention{
+    color: chocolate;
+    background-color: aqua;
+}
+.attention:hover{
+    border:5px solid black;
+}
+
+
+
+

@@ -15,10 +15,8 @@
 
 jQuery(document).ready(function () {
     jQuery('input').on('keyup',function () {
-        var value1;
-        var value2;
-        value1 = parseInt(jQuery('#val1').val());
-        value2 = parseInt(jQuery('#val2').val());
+        var value1 = parseInt(jQuery('#val1').val());
+        var value2 = parseInt(jQuery('#val2').val());
         var value3 = value1+value2;
 
         jQuery('#answer').html(value3);
